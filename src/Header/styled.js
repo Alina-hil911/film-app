@@ -54,6 +54,9 @@ export const CustomHeader = styled.header`
   
     flex-direction: row;
   }
+  @media ${device.mobileS} {
+    flex-direction: row;
+  }
  
 
   ${StyledButton} {

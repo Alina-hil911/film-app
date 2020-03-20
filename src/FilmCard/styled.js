@@ -22,6 +22,7 @@ export const Card = styled.div`
   p {
     margin-top: 10px;
     font-weight: 800;
+    color: ${props => props.theme.textColor};
   }
 `;
 

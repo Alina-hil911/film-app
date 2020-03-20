@@ -10,6 +10,7 @@ const Header = ({ SearchRandomFilmStart, error }) => {
     e.preventDefault();
     SearchRandomFilmStart();
   };
+  // Something is not ok with db, some films are missing so the text says user to click one more time
   return (
     <CustomHeader>
       <StyledButton onClick={handleClick}>

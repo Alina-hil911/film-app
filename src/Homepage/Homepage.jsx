@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { v4 as uuid } from "uuid";
 import Zoom from "react-reveal/Zoom";
 import { FILMS_PER_PAGE } from "../utils/defaults";
-const FilmCard = lazy(() => import("../FilmCard/SingleFilmPage"));
+const FilmCard = lazy(() => import("../FilmCard/FilmCard"));
 const Pagination = lazy(() => import("../Pagination/Paginantion"));
 
 const Homepage = memo(

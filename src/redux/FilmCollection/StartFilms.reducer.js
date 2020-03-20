@@ -17,7 +17,6 @@ const StartFilmsReducer = (state = INITIAL_STATE, action) => {
         search: false,
       };
     case "FETCH_FILM_BY_NAME_START":
-      console.log(action.payload);
       return {
         ...state,
         isFetching: true,
@@ -40,7 +39,6 @@ const StartFilmsReducer = (state = INITIAL_STATE, action) => {
         isFetching: true,
       };
     case "RANDOM_FILMS_FETCHING_SUCCESS":
-      console.log(state.year, "case of success, year");
       return {
         ...state,
         success: true,
