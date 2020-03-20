@@ -38,7 +38,7 @@ export const Form = styled.form`
 export const Input = styled.input`
   background: #f4f4f4;
   position: relative;
-  z-index: 20;
+  z-index: 3;
   border-radius: 20px;
   padding: 20px 40px;
   border: none;

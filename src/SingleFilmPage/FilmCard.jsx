@@ -49,15 +49,14 @@ const FilmCard = ({ randomFilm, closeRandomFilmCard }) => {
     <Portal>
       <ModalWrapper>
         <ModalCard>
-          <Zoom>
-            <ImageDiv>
-              {makeImageUrl() ? (
-                <img src={makeImageUrl()}></img>
-              ) : (
-                <Spinner></Spinner>
-              )}
-            </ImageDiv>
-          </Zoom>
+          <ImageDiv>
+            {makeImageUrl() ? (
+              <img src={makeImageUrl()}></img>
+            ) : (
+              <Spinner></Spinner>
+            )}
+          </ImageDiv>
+
           <TextDiv>
             <p>
               <span>Title: </span>

@@ -26,23 +26,22 @@ export const ModalCard = styled.div`
   position: relative;
   z-index: 10;
   margin-bottom: 100px;
-
   border-radius: 5px;
-  padding: 15px;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
-  @media ${device.mobileL} {
-    max-width: 90%;
-    min-width: 90%;
-    max-height: 90%;
-  }
 
   @media ${device.tablet} {
     max-width: 65%;
     min-width: 50%;
+  }
+  @media ${device.mobileM} {
+    max-width: 70%;
+    max-height: 80%;
+    overflow: scroll;
   }
 
   p {
@@ -54,8 +53,8 @@ export const ModalCard = styled.div`
 `;
 
 export const ImageDiv = styled.div`
-  width: 100%;
-
+  margin: 0 auto;
+  max-width: 80%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,8 +70,9 @@ export const ImageDiv = styled.div`
     height: 300px;
   }
   img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 80%;
+    max-height: 80%;
+    margin-top: 30px;
     border-radius: 5px;
   }
 `;

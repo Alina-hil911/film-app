@@ -55,11 +55,13 @@ export const CustomHeader = styled.header`
     flex-direction: row;
   }
   @media ${device.mobileS} {
-    flex-direction: row;
+    flex-direction: column;
   }
  
 
   ${StyledButton} {
+
+  
     display: none;
 
   }
