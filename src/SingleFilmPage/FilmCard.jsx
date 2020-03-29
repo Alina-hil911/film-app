@@ -12,7 +12,6 @@ import {
   ModalWrapper,
 } from "./styled";
 import { defaultImgUrl } from "../utils/defaults";
-import Zoom from "react-reveal/Zoom";
 
 const Portal = ({ children }) => {
   const cardRoot = document.getElementById("film-card");

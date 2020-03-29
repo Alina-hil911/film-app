@@ -49,14 +49,13 @@ export const CustomHeader = styled.header`
 
     flex-direction: column;
   }
+ 
 
   @media ${device.tablet} {
   
     flex-direction: row;
   }
-  @media ${device.mobileS} {
-    flex-direction: column;
-  }
+
  
 
   ${StyledButton} {
